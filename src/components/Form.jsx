@@ -12,6 +12,9 @@ const Form = ({ setActiveColor, setActiveTextType, setActiveTextColor }) => {
 
   const onSubmit = (e) => {
     e.preventDefault();
+    setActiveColor(formColor);
+    setActiveTextType(formTextType);
+    setActiveTextColor(formTextColor);
     alert(
       `You changed the from to include ${formColor}, ${formTextColor} and ${formTextType}!`
     );
