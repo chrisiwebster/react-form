@@ -1,7 +1,5 @@
 import React from "react";
-import Button from "./Button";
 import "./Input.css";
-import { useState } from "react";
 
 const Input = ({ feature, type, onChange }) => {
   return (
