@@ -42,14 +42,14 @@ const Form = ({ setActiveColor, setActiveTextType, setActiveTextColor }) => {
       <Button name="Change" type="button" onClick={onClickColor} />
       <Input
         type="text"
-        feature="text colour"
+        feature="text-colour"
         onChange={(e) => setFormTextColor(e.target.value)}
       />
-      <Button name="Change" type="button" OnClick={onClickTextColor} />
+      <Button name="Change" type="button" onClick={onClickTextColor} />
 
       <label for="textType">Edit text transform type</label>
       <select id="textType" onChange={(e) => setFormTextType(e.target.value)}>
-        <option value="">""</option>
+        <option value=""></option>
         <option value="lowercase">lowercase</option>
         <option value="uppercase">uppercase</option>
         <option value="capitalize">capitalize</option>
