@@ -49,6 +49,7 @@ const Form = ({ setActiveColor, setActiveTextType, setActiveTextColor }) => {
 
       <label for="textType">Edit text transform type</label>
       <select id="textType" onChange={(e) => setFormTextType(e.target.value)}>
+        <option value="">""</option>
         <option value="lowercase">lowercase</option>
         <option value="uppercase">uppercase</option>
         <option value="capitalize">capitalize</option>
