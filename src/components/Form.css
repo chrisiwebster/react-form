@@ -1,0 +1,18 @@
+select {
+  width: 42vw;
+  margin: 1em;
+  display: inline-block;
+  padding: 1em;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+  background-color: #c1e1c1;
+}

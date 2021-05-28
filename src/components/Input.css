@@ -1,0 +1,22 @@
+input {
+  width: 40vw;
+  margin: 1em;
+  display: inline-block;
+  padding: 1em;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid black;
+  box-shadow: 1px 1px black;
+}
+
+.inline-div {
+  display: inline-block;
+}
+
+label {
+  display: block;
+  margin: 0 1em;
+  padding: 0.5em 0.1em 0;
+}

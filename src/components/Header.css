@@ -1,0 +1,9 @@
+header {
+  min-height: 30vh;
+  display: flex;
+}
+
+header h1 {
+  align-self: center;
+  margin: 0 auto;
+}
