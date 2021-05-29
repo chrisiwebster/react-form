@@ -3,8 +3,8 @@ import "./Input.css";
 
 const Input = ({ feature, type, onChange }) => {
   return (
-    <div class="inline-div">
-      <label for={feature}>{`Edit ${feature}`}</label>
+    <div className="inline-div">
+      <label htmlFor={feature}>{`Edit ${feature}`}</label>
       <input id={feature} type={type} onChange={onChange} />
     </div>
   );
