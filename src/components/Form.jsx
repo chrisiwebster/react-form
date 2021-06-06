@@ -81,6 +81,7 @@ const Form = ({ setActiveColor, setActiveTextType, setActiveTextColor }) => {
             id="name"
             value={name}
             onBlur={handleNameChange}
+            onChange={handleNameChange}
             error={nameError}
           />
           <Input
@@ -90,6 +91,7 @@ const Form = ({ setActiveColor, setActiveTextType, setActiveTextColor }) => {
             required
             value={email}
             onBlur={handleEmailChange}
+            onChange={handleEmailChange}
             error={emailError}
           />
           <Button type="submit" name="Get access!" />

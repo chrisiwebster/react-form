@@ -9,16 +9,8 @@
 
 form button[type="submit"] {
   display: block;
-  position: relative;
+  margin: 3em 1em;
   background-color: #c1e1c1;
-}
-
-form#log-in-form button[type="submit"] {
-  left: 200px;
-}
-
-form#change-form button[type="submit"] {
-  left: 225px;
 }
 
 .button:hover {

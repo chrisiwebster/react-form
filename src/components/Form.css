@@ -3,13 +3,14 @@ select {
   margin: 1em;
   display: inline-block;
   padding: 1em;
+  display: block;
 }
 
 form {
   width: 50vw;
   height: auto;
   padding: 2em;
-  margin: 0 auto;
+  margin: 1em auto;
   border: 1px black solid;
 }
 
