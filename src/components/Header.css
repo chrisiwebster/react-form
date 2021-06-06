@@ -1,6 +1,7 @@
 header {
   min-height: 30vh;
   display: flex;
+  margin-bottom: 1em;
 }
 
 header h1 {

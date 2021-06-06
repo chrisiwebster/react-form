@@ -1,17 +1,18 @@
 import React from "react";
 
-import './Button.css'
+import "./Button.css";
 
-const Button = ({type, name, onClick}) => {
+const Button = ({ type, name, onClick }) => {
   return (
     <button type={type} className="button" onClick={onClick}>
       {name}
     </button>
-  )
-}
+  );
+};
 
 Button.defaultProps = {
   type: "Button",
-  name: "Submit"
-}
+  name: "Submit",
+  class: "button",
+};
 export default Button;

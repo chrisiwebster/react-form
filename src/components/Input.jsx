@@ -1,11 +1,12 @@
 import React from "react";
 import "./Input.css";
 
-const Input = ({ feature, type, onChange }) => {
+const Input = ({ id, type, onChange, label, error, onBlur }) => {
   return (
-    <div className="inline-div">
-      <label htmlFor={feature}>{`Edit ${feature}`}</label>
-      <input id={feature} type={type} onChange={onChange} />
+    <div>
+      <label htmlFor={id}>{label}</label>
+      <input id={id} type={type} onChange={onChange} onBlur={onBlur} />
+      {error && <p className="input-error">{error}</p>}
     </div>
   );
 };

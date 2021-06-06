@@ -11,12 +11,13 @@ input:focus {
   box-shadow: 1px 1px black;
 }
 
-.inline-div {
-  display: inline-block;
-}
-
-label {
+label,
+.input-error {
   display: block;
   margin: 0 1em;
   padding: 0.5em 0.1em 0;
+}
+
+.input-error {
+  padding-bottom: 1em;
 }

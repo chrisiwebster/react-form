@@ -22,7 +22,6 @@ export default function App() {
         setActiveTextType={setActiveTextType}
         setActiveTextColor={setActiveTextColor}
       />
-      <p>Please use the CSS properties when providing answers!</p>
     </div>
   );
 }
